@@ -23,6 +23,8 @@ How -----------------
 Rquirement-------------
 
 
-1.Front-end Framework:----streamlit
-2.Back-end Framework:----Streamlit
-3.CSV based "storage": ---Pandas
+Streamlit — for building the web app interface
+
+Pandas — for data manipulation and CSV handling
+
+datetime (built-in Python module) — for handling dates and expiry checks
