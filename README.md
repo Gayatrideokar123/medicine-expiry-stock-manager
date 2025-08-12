@@ -20,11 +20,12 @@ How -----------------
  4. Generating Reports
 
 
-Rquirement:
-Operating System:windows
-programming Language:Python
-Database Management System:Mysql
-Front-end Framework:streamlit
-Back-end Framework:Streamlit
-Notification System:SMS
-CSV based "storage": Pandas
+Rquirement-------------
+
+1.Operating System:windows
+2.programming Language:Python
+3.Database Management System:Mysql
+4.Front-end Framework:streamlit
+5.Back-end Framework:Streamlit
+6.Notification System:SMS
+7.CSV based "storage": Pandas
