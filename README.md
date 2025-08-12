@@ -26,5 +26,4 @@ Rquirement-------------
 2.programming Language:----Python
 3.Front-end Framework:----streamlit
 4.Back-end Framework:----Streamlit
-5.Notification System:----SMS
-6.CSV based "storage": ---Pandas
+5.CSV based "storage": ---Pandas
