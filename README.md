@@ -22,8 +22,7 @@ How -----------------
 
 Rquirement-------------
 
-1.Operating System:----windows
-2.programming Language:----Python
-3.Front-end Framework:----streamlit
-4.Back-end Framework:----Streamlit
-5.CSV based "storage": ---Pandas
+
+1.Front-end Framework:----streamlit
+2.Back-end Framework:----Streamlit
+3.CSV based "storage": ---Pandas
