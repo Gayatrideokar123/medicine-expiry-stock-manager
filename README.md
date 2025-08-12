@@ -18,3 +18,13 @@ How -----------------
 2. Managing Stock
 3. Sending Notifications
  4. Generating Reports
+
+
+Rquirement:
+Operating System:windows
+programming Language:Python
+Database Management System:Mysql
+Front-end Framework:streamlit
+Back-end Framework:Streamlit
+Notification System:SMS
+CSV based "storage": Pandas
