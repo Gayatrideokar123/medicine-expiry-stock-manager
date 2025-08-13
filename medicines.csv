@@ -1,0 +1,39 @@
+import csv
+import tkinter as tk
+from tkinter import ttk
+
+# Function to read CSV data
+def read_medicines(file_path):
+    medicines = []
+    with open(file_path, newline='') as file:
+        reader = csv.reader(file)
+        headers = next(reader)  # Skip header
+        for row in reader:
+            medicines.append(row)
+    return headers, medicines
+
+# Function to display medicines in table
+def display_table(headers, medicines):
+    root = tk.Tk()
+    root.title("Medicine List")
+
+    # Create Treeview widget
+    tree = ttk.Treeview(root, columns=headers, show="headings")
+
+    # Define column headings
+    for col in headers:
+        tree.heading(col, text=col)
+        tree.column(col, width=120)
+
+    # Insert data rows
+    for med in medicines:
+        tree.insert("", tk.END, values=med)
+
+    tree.pack(fill=tk.BOTH, expand=True)
+
+    root.mainloop()
+
+# Main
+csv_file = "medicines.csv"  # Ensure this file exists in same folder
+headers, medicines = read_medicines(csv_file)
+display_table(headers, medicines)
